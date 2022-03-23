@@ -1,0 +1,13 @@
+<department>
+<month value="9">
+<employee name="Lisa" workingHours="145"/>
+<employee name="Alex" workingHours="170.5"/>
+<employee name="Leo" amount="34100.8"/>
+</month>
+<month value="10">
+<employee name="Lisa" workingHours="165"/>
+<employee name="Alex" workingHours="155.75"/>
+<employee name="Jack" workingHours ="188.25"/>
+<employee name="Leo" amount ="23500.7"/>
+</month>
+</department>
