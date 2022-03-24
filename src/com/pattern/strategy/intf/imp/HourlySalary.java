@@ -5,10 +5,14 @@ import com.pattern.strategy.intf.SalaryStrategy;
 
 public class HourlySalary implements SalaryStrategy {
 	public static final String roleBinding = Consts.Hourly;
+
 	private double fixedSalary = 0;
 	private double hourlysalary = 40;
 	private double commissionRate = 0;
 	private double basicSalary = 0;
+
+	private HourlySalary() {
+	};
 
 	public double calcSalary(double workload, Object params) {
 		return 0 + calcOvertimeSalary();// 基础工资+加班工资

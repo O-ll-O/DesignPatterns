@@ -11,6 +11,9 @@ public class SalespersonSalary implements SalaryStrategy {
 	private double commissionRate = 0;
 	private double basicSalary = 0;
 
+	private SalespersonSalary() {
+	};
+
 	// 工资金额
 	public double calcSalary(double workload, Object params) {
 		return 0;

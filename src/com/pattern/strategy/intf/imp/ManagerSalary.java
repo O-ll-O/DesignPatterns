@@ -10,6 +10,9 @@ public class ManagerSalary implements SalaryStrategy {
 	private double commissionRate = 0;// 提成率
 	private double basicSalary = 0;// 底薪
 
+	private ManagerSalary() {
+	};
+
 	public double calcSalary(double workload, Object params) {
 		return 0 + calcOvertimeSalary();
 	}
@@ -26,7 +29,7 @@ public class ManagerSalary implements SalaryStrategy {
 		private static final ManagerSalary instance = new ManagerSalary();
 	}
 
-	public static ManagerSalary getInstance() {
+	public static SalaryStrategy getInstance() {
 		return SingletonHolder.instance;
 	}
 }

@@ -9,6 +9,7 @@ public class Consts {
 	public static final String Manager = "Manager";
 	public static final String Hourly = "Hourly";
 	public static final String Salesperson = "Salesperson";
+	public static final String Other = "Other";
 	// 用户转角色
 	public static final Map<String, String> User2Role = new HashMap<String, String>();
 	static {
